@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BfoxyArts | Bernadette Fox</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #faf8f6;
+}
+
+header {
+    background: #1f3c44;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #e9ecef, #f8f9fa);
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #1f3c44;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background: #1f3c44;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1f3c44;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+.art-placeholder {
+    background: white;
+    border: 2px dashed #ccc;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    background: white;
+}
+
+.contact {
+    background: #1f3c44;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f2025;
+    color: white;
+}
+
+@media (max-width:768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">BfoxyArts</div>
+
+        <ul>
+            <li>#galleryGallery</a></li>
+            <li>#aboutAbout</a></li>
+            <li>#contactContact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Bernadette Fox</h1>
+
+        <p>
+            Original artwork inspired by creativity, color, nature, and personal expression.
+        </p>
+
+        #gallery
+            View Gallery
+        </a>
+    </div>
+</section>
+
+<section id="gallery">
+    <div class="container">
+        <h2 class="section-title">Featured Artwork</h2>
+
+        <div class="gallery-grid">
+
+            <div class="art-placeholder">
+                Artwork Placeholder
+            </div>
+
+            <div class="art-placeholder">
+                Artwork Placeholder
+            </div>
+
+            <div class="art-placeholder">
+                Artwork Placeholder
+            </div>
+
+            <div class="art-placeholder">
+                Artwork Placeholder
+            </div>
+
+            <div class="art-placeholder">
+                Artwork Placeholder
+            </div>
+
+            <div class="art-placeholder">
+                Artwork Placeholder
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            About the Artist
+        </h2>
+
+        <p>
+            Welcome to BfoxyArts, the creative home of artist Bernadette Fox.
+            Through original works inspired by imagination, nature, and everyday
+            experiences, Bernadette seeks to create pieces that connect with viewers
+            and spark conversation.
+        </p>
+
+        <br>
+
+        <p>
+            This section will be expanded with Bernadette's official artist biography
+            and statement.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+    <div class="container">
+
+        <h2>Contact</h2>
+
+        <p>
+            Interested in an original piece or commission?
+        </p>
+
+        <br>
+
+        <p>
+            Contact information and social media links coming soon.
+        </p>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 BfoxyArts | Bernadette Fox
+</footer>
+
+</body>
+</html>
