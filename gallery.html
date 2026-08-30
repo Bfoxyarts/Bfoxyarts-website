@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,46 +12,54 @@
 body {
     font-family: Arial, sans-serif;
     background: #F8F5EF;
-    margin: 0;
     color: #333;
+    margin: 0;
 }
 
 header {
     text-align: center;
-    padding: 30px 20px;
+    padding: 30px;
 }
 
 .logo {
     width: 250px;
-    height: auto;
+    max-width: 90%;
 }
 
 h1 {
     color: #274029;
-    font-size: 56px;
-    margin-bottom: 10px;
 }
 
 h2 {
     color: #274029;
-    margin-top: 60px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .gallery {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 25px;
     padding: 20px;
 }
 
 .card {
     background: white;
     border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,.12);
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-content {
     padding: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,.12);
 }
 
 .card h3 {
@@ -61,6 +70,7 @@ h2 {
 .price {
     color: #B87333;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .available {
@@ -68,10 +78,23 @@ h2 {
     font-weight: bold;
 }
 
-a {
-    color: #B87333;
-    text-decoration: none;
+.sold {
+    color: #AA0000;
     font-weight: bold;
+}
+
+.contact-button {
+    display: inline-block;
+    background: #274029;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.contact-button:hover {
+    background: #1d2f1f;
 }
 
 footer {
@@ -79,7 +102,13 @@ footer {
     padding: 30px;
     background: #274029;
     color: white;
-    margin-top: 40px;
+    margin-top: 50px;
+}
+
+.home-link {
+    color: #B87333;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 </style>
@@ -90,18 +119,14 @@ footer {
 
 <header>
 
-images/logo.png
-<p>
-<a href="index.html">← Return to Home</a>
-</p>
-<h1>Gallery</h1>
+<img src="images/<h1>Bfoxyarts Artwork Gallery</h1>
 
 <p>
-Browse original artwork by Bernadette Fox.
+Browse original acrylic paintings inspired by wildlife, birds, and the natural world.
 </p>
 
 <p>
-<a href="index.html">Return to Home Page</a>
+<a class="home-link" href="index.html">← Return Home</a>
 </p>
 
 </header>
@@ -111,7 +136,161 @@ Browse original artwork by Bernadette Fox.
 <div class="gallery">
 
 <div class="card">
+images/night-owl.jpg
+<div class="card-content">
 <h3>Night Owl</h3>
-<p>16" x 20"</p>
+<p>16" x 20" • Acrylic on Canvas</p>
 <p class="price">$300</p>
 <p class="available">Available</p>
+<a class="contact-button" href="mailto:Bkfox1206@gmail.comct Artist</a>
+</div>
+</div>
+
+<div class="card">
+images/great-grey-owl.jpg
+<div class="card-content">
+<h3>Great Grey Owl</h3>
+<p>18" x 24" • Acrylic on Canvas</p>
+<p class="price">$350</p>
+<p class="available">Available</p>
+<a class="contact-button" href="mailto Owl Artwork InquiryContact Artist</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/snowy-owl.jpg" "card-content">
+<h3>Snowy Owl</h3>
+<p>16" x 20" • Acrylic on Canvas</p>
+<p class="price">$350</p>
+<p class="available">Available</p>
+<a class="contact-button" href="mailto:Bkfox1206@gmail.com?subjectt</a>
+</div>
+</div>
+
+<div class="card">
+images/barn-owl.jpg
+<div class="card-content">
+<h3>Barn Owl</h3>
+<p>18" x 24" • Acrylic on Canvas</p>
+<p class="price">$350</p>
+<p class="available">Available</p>
+<a class="contact-button" href="mailto:Bkfox1206@gmail.com?subject=Barn /div>
+</div>
+
+</div>
+
+<h2>Songbirds & Backyard Birds</h2>
+
+<div class="gallery">
+
+<div class="card">
+images/chickadees.jpg
+<div class="card-content">
+<h3>Chickadees</h3>
+<p>10" x 20" • Acrylic on Canvas</p>
+<p class="price">$200</p>
+<a class="contact-button" href="mailto:Bkfox1206@gmail.com?subject=Chickadeesv>
+</div>
+
+<div class="card">
+<imges/cardinal-in-winter.jpg
+<div class="card-content">
+<h3>Cardinal in Winter</h3>
+<p>16" x 20" • Acrylic on Canvas</p>
+<p class="price">$250</p>
+<a class="contact-button" href="inal in Winter Artwork InquiryContact Artist</a>
+</div>
+</div>
+
+<div class="card">
+images/indigo-bunting.jpg
+<div class="card-content">
+<h3>Indigo Bunting</h3>
+<p>12" x 12" • Acrylic on Canvas</p>
+<p class="price">$100</p>
+<a class="contact-button" href="mailto:Bkfox1206rk InquiryContact Artist</a>
+</div>
+</div>
+
+</div>
+
+<h2>African Wildlife</h2>
+
+<div class="gallery">
+
+<div class="card">
+images/karongwe.jpg
+<div class="card-content">
+<h3>Karongwe</h3>
+<p>18" x 24" • Acrylic on Canvas</p>
+<p class="price">$500</p>
+<p class="available">Available</p>
+<a class="contact-m?subject=Karongwe Artwork InquiryContact Artist</a>
+</div>
+</div>
+
+<div class="card">
+images/not-a-leopard.jpg
+<div class="card-content">
+<h3>Not a Leopard</h3>
+<p>16" x 20" • Acrylic on Canvas</p>
+<p class="price">$350</p>
+<a class="contact-button" href="mailto:Bkfox1206@gmail.com?subject=Not a a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/gbh-giraffe-by-happenstanceclass="card-content">
+<h3>GBH: Giraffe By Happenstance</h3>
+<p>16" x 20" • Acrylic on Canvas</p>
+<p class="price">$300</p>
+<a class="contact-button" href="mailtoe By Happenstance Artwork InquiryContact Artist</a>
+</div>
+</div>
+
+</div>
+
+<h2>Domestic Animals & Wildlife</h2>
+
+<div class="gallery">
+
+<div class="card">
+images/kelley-girl.jpg
+<div class="card-content">
+<h3>Kelley Girl</h3>
+<p class="sold">Sold</p>
+</div>
+</div>
+
+<div class="card">
+<mages/fox.jpg
+<div class="card-content">
+<h3>Fox</h3>
+<p>16" x 20" • Acrylic on Canvas</p>
+<p class="price">$300</p>
+<p class="available">Available</p>
+<a class="contact-button" href="mailto: InquiryContact Artist</a>
+</div>
+</div>
+
+</div>
+
+<footer>
+
+Interested in purchasing artwork or commissioning a custom piece?
+
+<br><br>
+
+Contact Bernadette Fox directly:
+
+<br><br>
+
+<a href="mailto:Bkfox1206@gmail.com">
+Bkfox1206@gmail.com
+</a>
+
+</footer>
+
+</body>
+</html>
+``
