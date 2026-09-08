@@ -1,26 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://bfoxyarts.com/</loc></url>
-<url><loc>https://bfoxyarts.com/gallery.html</loc></url>
-<url><loc>https://bfoxyarts.com/about.html</loc></url>
-<url><loc>https://bfoxyarts.com/contact.html</loc></url>
-<url><loc>https://bfoxyarts.com/kelley-girl.html</loc></url>
-<url><loc>https://bfoxyarts.com/fox.html</loc></url>
-<url><loc>https://bfoxyarts.com/chickadees.html</loc></url>
-<url><loc>https://bfoxyarts.com/night-owl.html</loc></url>
-<url><loc>https://bfoxyarts.com/cedar-waxwing.html</loc></url>
-<url><loc>https://bfoxyarts.com/cardinal-in-winter.html</loc></url>
-<url><loc>https://bfoxyarts.com/yellow-billed-cuckoo.html</loc></url>
-<url><loc>https://bfoxyarts.com/finally-free.html</loc></url>
-<url><loc>https://bfoxyarts.com/great-grey-owl.html</loc></url>
-<url><loc>https://bfoxyarts.com/snowy-owl.html</loc></url>
-<url><loc>https://bfoxyarts.com/barn-owl.html</loc></url>
-<url><loc>https://bfoxyarts.com/somebodys-watching.html</loc></url>
-<url><loc>https://bfoxyarts.com/indigo-bunting.html</loc></url>
-<url><loc>https://bfoxyarts.com/ruby-throated-hummingbird.html</loc></url>
-<url><loc>https://bfoxyarts.com/elefun.html</loc></url>
-<url><loc>https://bfoxyarts.com/karongwe.html</loc></url>
-<url><loc>https://bfoxyarts.com/nevermore.html</loc></url>
-<url><loc>https://bfoxyarts.com/not-a-leopard.html</loc></url>
-<url><loc>https://bfoxyarts.com/gbh-giraffe-by-happenstance.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://bfoxyarts.com/</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/about.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/barn-owl.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/barn-owl.jpg</image:loc>
+      <image:title>Barn Owl by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/cardinal-in-winter.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/cardinal-in-winter.jpg</image:loc>
+      <image:title>Cardinal in Winter by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/cedar-waxwing.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/cedar-waxwing.jpg</image:loc>
+      <image:title>Cedar Waxwing by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/chickadees.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/chickadees.jpg</image:loc>
+      <image:title>Chickadees by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/contact.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/elefun.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/elefun.jpg</image:loc>
+      <image:title>Elefun by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/finally-free.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/finally-free.jpg</image:loc>
+      <image:title>Finally Free by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/fox.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/fox.jpg</image:loc>
+      <image:title>Fox by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/gallery.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/gbh-giraffe-by-happenstance.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/gbh-giraffe-by-happenstance.jpg</image:loc>
+      <image:title>GBH: Giraffe By Happenstance by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/great-grey-owl.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/great-grey-owl.jpg</image:loc>
+      <image:title>Great Grey Owl by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/indigo-bunting.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/indigo-bunting.jpg</image:loc>
+      <image:title>Indigo Bunting by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/karongwe.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/karongwe.jpg</image:loc>
+      <image:title>Karongwe by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/kelley-girl.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/kelley-girl.jpg</image:loc>
+      <image:title>Kelley Girl by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/nevermore.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/nevermore.jpg</image:loc>
+      <image:title>Nevermore by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/night-owl.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/night-owl.jpg</image:loc>
+      <image:title>Night Owl by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/not-a-leopard.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/not-a-leopard.jpg</image:loc>
+      <image:title>Not a Leopard by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/ruby-throated-hummingbird.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/ruby-throated-hummingbird.jpg</image:loc>
+      <image:title>Ruby-Throated Hummingbird by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/snowy-owl.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/snowy-owl.jpg</image:loc>
+      <image:title>Snowy Owl by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/somebodys-watching.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/somebodys-watching.jpg</image:loc>
+      <image:title>Somebody&#x27;s Watching by Bernadette Fox</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bfoxyarts.com/yellow-billed-cuckoo.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://bfoxyarts.com/images/yellow-billed-cuckoo.jpg</image:loc>
+      <image:title>Yellow-Billed Cuckoo by Bernadette Fox</image:title>
+    </image:image>
+  </url>
 </urlset>

@@ -10,3 +10,5 @@
 .site-footer{background:var(--purple-dark);color:#fff;margin-top:72px}.footer-inner{max-width:var(--max);margin:auto;padding:42px 22px;text-align:center}.site-footer a{color:#fff;font-weight:800}.footer-title{font-size:1.35rem;font-weight:800;margin:0 0 8px}.footer-small{opacity:.82;margin-top:20px}
 @media(max-width:900px){.grid-4,.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.artist-split,.detail-grid{grid-template-columns:1fr}.artist-photo{max-width:390px;margin:auto}}
 @media(max-width:620px){.header-inner{flex-direction:column;gap:6px;padding:10px 14px 12px}.brand img{width:45px;height:45px}.site-nav a{padding:7px 9px;font-size:.94rem}.section{padding:46px 0}.grid-4,.gallery-grid{grid-template-columns:1fr}.hero-art{max-height:none;height:auto}.featured-card img,.art-card img{height:auto;max-height:520px;object-fit:contain}.contact-card{padding:28px 20px}}
+
+.site-footer p{margin-top:10px;margin-bottom:10px}
