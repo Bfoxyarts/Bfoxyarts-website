@@ -1,0 +1,49 @@
+name: Build exhibitions page
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - Bfoxyarts_Exhibitions_Content_Template.xlsx
+      - scripts/generate_exhibitions.py
+      - .github/workflows/build-exhibitions.yml
+      - requirements.txt
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate exhibitions page
+        run: python scripts/generate_exhibitions.py
+
+      - name: Commit generated page
+        run: |
+          if git diff --quiet -- exhibitions.html; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add exhibitions.html
+          git commit -m "Automatically update exhibitions page"
+          git push
